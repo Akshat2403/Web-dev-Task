@@ -27,6 +27,14 @@ nav h3{
     font-size: 18px;
     color: white;
 }
+nav img{
+    width: 50px;
+    
+    position: absolute;
+    top:0%;
+    left: 0%;
+    z-index: index 2;
+}
 .subnav{
     padding-top: 50px;
     width: 100%;
@@ -71,7 +79,18 @@ nav h3{
 .div2 p{
     font-size: 23px;
 }
-
+.link{
+    position: absolute;
+    right:5%;
+    bottom:5%;
+    width: 50px;
+}
+.insta{
+    position: absolute;
+    right:11%;
+    bottom:5%;
+    width: 80px;
+}
 .border{
     border-top: 1px solid ;
 

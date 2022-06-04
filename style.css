@@ -90,45 +90,48 @@ main{
 }
 #user-card{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(25%,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(20%,1fr));
     margin: 8%;
     grid-gap: 100px;
 }
 .card{
     border: 1px solid black;
-    border-radius: 0% 0% 5% 5%;
-    height:100%;
+    border-radius: 5% 5% 5% 5%;
+    height:110%;
     width:100%;
-    max-height: 350px;
+    max-height: 450px;
     background-color: white;
     box-shadow: 10px 10px;
+    box-sizing: border-box;padding: 4%;
   
 }
 .img{
+    border-radius: 5% 5% 5% 5%;
     height: 50%;
     width:100%; 
 }
 .title{
     font-weight: 1000;
     font-size: larger;
-    margin-left: 5%;
+    
 }
 .brand{
-    margin-left: 5%;
+    
     margin-top: 0.2rem;
 }
 .category{
-    margin-top: 0.2rem;
+    margin-top: 0.4rem;
     padding: 2%;
     display: inline-block;
-    margin-left :5%;
-    margin-right: 5%;
     background-color: rgb(116, 116, 232);
     border-radius:15px;
     color:white;
 }
 .price{
     margin-top: 0.2rem;
-    margin-left:5%;
+
+}
+.hide{
+    display: none;
 }
 

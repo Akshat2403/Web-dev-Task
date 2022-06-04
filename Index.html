@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo.webp">
     
-    <title>Title</title>
+    <title>Fin</title>
 </head>
 <body>
     <nav>
@@ -14,23 +15,24 @@
     </nav>
         <sub>
             <form action="">
-                <input type="text"  name="text" id="search-box" placeholder="Search">
+                <input type="text"  name="text" id="search-box" placeholder="Search" data-search>
             </form>
         </sub>
         
         <main>
             <div class="product"><h2>Products</h2></div>
-            <div id="user-card"></div>
-                <template id="temp">
+            <div id="user-card"data-user-cards-container></div>
+                <template id="temp"data-user-template>
                     <div class="card">
-                        <img src="" class="img">
-                        <div class="title"></div>
-                        <div class="brand"></div>
-                        <div class="category"></div>
-                        <div class="price"></div>
+                        <img src="" class="img"data-img>
+                        <div class="title"data-title></div>
+                        <div class="brand"data-brand></div>
+                        <div class="description"data-description></div>
+                        <div class="category"data-category></div>
+                        <div class="price"data-price></div>
                     </div>
                 </template>
         </main>
-        <script src="temp.js"></script>
+        <script src="script.js"></script>
 </body>
 </html>
